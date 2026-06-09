@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DecodeLabs - Leading Digital Solutions Agency. We specialize in Web Development, UI/UX Design, Mobile Apps, SEO, Digital Marketing, and Cloud Solutions to scale your business.">
+  <title>DecodeLabs | Digital Solutions Agency</title>
+  
+  <!-- Google Fonts - Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="header" id="header" role="banner">
+    <div class="container navbar">
+      <a href="#home" class="logo" aria-label="DecodeLabs Home">
+        Decode<span>Labs</span>
+      </a>
+      
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Toggle Menu button for Mobile -->
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open Navigation Menu">
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero scroll-reveal">
+      <div class="container hero-wrapper">
+        <div class="hero-content">
+          <span class="badge">Innovation Meets Impact</span>
+          <h1 class="hero-title">Engineering Digital Solutions For Growth</h1>
+          <p class="hero-description">
+            We build next-generation web applications, bespoke UI/UX designs, and scalable cloud solutions that help ambitious brands capture the future.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" aria-label="Get Started with DecodeLabs">Get Started</a>
+            <a href="#portfolio" class="btn btn-secondary" aria-label="View our portfolio">Our Work</a>
+          </div>
+        </div>
+        
+        <!-- Hero Right Column - Modern Illustration -->
+        <div class="hero-image">
+          <svg class="hero-svg" viewBox="0 0 500 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#3B82F6" />
+                <stop offset="100%" stop-color="#1D4ED8" />
+              </linearGradient>
+              <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#60A5FA" />
+                <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.2" />
+              </linearGradient>
+              <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+                <feDropShadow dx="2" dy="8" stdDeviation="8" flood-color="#1E293B" flood-opacity="0.15" />
+              </filter>
+            </defs>
+            <!-- Animated Background Circles -->
+            <circle cx="250" cy="250" r="180" fill="none" stroke="rgba(59, 130, 246, 0.08)" stroke-width="2" stroke-dasharray="10 10"/>
+            <circle cx="250" cy="250" r="220" fill="none" stroke="rgba(30, 41, 59, 0.04)" stroke-width="1"/>
+            
+            <!-- Dashboard Mockup Platform -->
+            <rect x="75" y="110" width="350" height="250" rx="16" fill="#1E293B" filter="url(#dropShadow)" />
+            
+            <!-- Window Title Bar -->
+            <rect x="75" y="110" width="350" height="30" rx="16" fill="#0F172A" />
+            <circle cx="100" cy="125" r="5" fill="#EF4444" />
+            <circle cx="115" cy="125" r="5" fill="#F59E0B" />
+            <circle cx="130" cy="125" r="5" fill="#10B981" />
+            <rect x="160" y="120" width="180" height="10" rx="5" fill="#1E293B" />
+            
+            <!-- Dashboard Screen Content -->
+            <rect x="95" y="160" width="140" height="80" rx="8" fill="rgba(59, 130, 246, 0.1)" stroke="url(#accentGrad)" stroke-width="1"/>
+            <path d="M105,220 L135,185 L165,200 L205,170 L225,190" fill="none" stroke="url(#blueGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="225" cy="190" r="4" fill="#3B82F6"/>
+            
+            <rect x="250" y="160" width="155" height="36" rx="6" fill="#0F172A" />
+            <rect x="262" y="172" width="60" height="12" rx="3" fill="#3B82F6" />
+            <rect x="332" y="175" width="60" height="6" rx="3" fill="#64748B" />
+
+            <rect x="250" y="204" width="155" height="36" rx="6" fill="#0F172A" />
+            <rect x="262" y="216" width="35" height="12" rx="3" fill="#10B981" />
+            <rect x="307" y="219" width="85" height="6" rx="3" fill="#64748B" />
+            
+            <rect x="95" y="255" width="70" height="85" rx="8" fill="#0F172A" />
+            <circle cx="130" cy="285" r="18" fill="none" stroke="#64748B" stroke-width="4" stroke-linecap="round" />
+            <circle cx="130" cy="285" r="18" fill="none" stroke="url(#blueGrad)" stroke-width="4" stroke-dasharray="80 120" stroke-linecap="round" />
+            <rect x="110" y="315" width="40" height="8" rx="4" fill="#3B82F6" />
+            
+            <rect x="180" y="255" width="225" height="85" rx="8" fill="#0F172A" />
+            <line x1="200" y1="275" x2="385" y2="275" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+            <line x1="200" y1="295" x2="350" y2="295" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+            <line x1="200" y1="315" x2="370" y2="315" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+            
+            <!-- Floating UI Isometric Cards -->
+            <g class="float-card" transform="translate(320, 70)">
+              <rect x="0" y="0" width="120" height="50" rx="10" fill="#FFFFFF" filter="url(#dropShadow)"/>
+              <circle cx="25" cy="25" r="12" fill="#E0F2FE" />
+              <path d="M21,25 L24,28 L29,22" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round"/>
+              <rect x="45" y="17" width="60" height="6" rx="3" fill="#1E293B"/>
+              <rect x="45" y="27" width="40" height="5" rx="2.5" fill="#64748B"/>
+            </g>
+            
+            <g class="float-card-2" transform="translate(30, 290)">
+              <rect x="0" y="0" width="100" height="70" rx="10" fill="#3B82F6" filter="url(#dropShadow)"/>
+              <text x="15" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-weight="bold" font-size="14" fill="#FFFFFF">$45.8k</text>
+              <text x="15" y="45" font-family="Inter, sans-serif" font-size="9" fill="#93C5FD">Monthly Rev</text>
+              <path d="M15,58 L35,53 L55,59 L75,52" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about section scroll-reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Who We Are</span>
+          <h2 class="section-title">We Lead Brands Into The Digital Future</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-intro">
+            <h3>Innovators, Architects, Creators</h3>
+            <p class="text-large">
+              Founded on the belief that code should build businesses and designs should create lasting impact, DecodeLabs bridges the gap between technology and vision.
+            </p>
+            <p>
+              We are a team of dedicated digital experts combining technical sophistication with design-first strategies. From startups finding their footprint to global brands looking to revolutionize their core systems, we develop bespoke software assets engineered for market performance.
+            </p>
+            <div class="about-mission">
+              <h4>Our Mission</h4>
+              <blockquote class="mission-text">
+                "To deliver bulletproof engineering, seamless digital aesthetics, and strategic growth partnerships that empower businesses to operate at their absolute peak."
+              </blockquote>
+            </div>
+          </div>
+          
+          <div class="about-features">
+            <!-- Feature Card 1 -->
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <!-- Innovation Icon -->
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .6 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+                  <path d="M9 18h6"/>
+                  <path d="M10 22h4"/>
+                </svg>
+              </div>
+              <div class="feature-info">
+                <h4 class="feature-title">Innovation</h4>
+                <p class="feature-desc">We leverage cutting-edge tech frameworks to build future-proof solutions optimized for the modern web.</p>
+              </div>
+            </div>
+
+            <!-- Feature Card 2 -->
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <!-- Quality Icon -->
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="7"/>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                </svg>
+              </div>
+              <div class="feature-info">
+                <h4 class="feature-title">Quality</h4>
+                <p class="feature-desc">We follow strict modular coding standards, automated testing, and comprehensive UI design reviews.</p>
+              </div>
+            </div>
+
+            <!-- Feature Card 3 -->
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <!-- Support Icon -->
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                </svg>
+              </div>
+              <div class="feature-info">
+                <h4 class="feature-title">Support</h4>
+                <p class="feature-desc">Our digital relationship does not end at deployment. We offer 24/7 technical monitoring and lifecycle support.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services section scroll-reveal">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">What We Do</span>
+          <h2 class="section-title">Premium Digital Capabilities</h2>
+          <p class="section-desc">We combine design, development, and marketing strategies to deliver high-performance assets.</p>
+        </div>
+        
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <article class="service-card">
+            <div class="service-icon-container">
+              <!-- Web Dev Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+                <line x1="14" y1="4" x2="10" y2="20"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Web Development</h3>
+            <p class="service-card-desc">Bespoke applications using clean HTML5/CSS3/Vanilla JS and advanced frameworks, engineered to perform efficiently.</p>
+            <a href="#contact" class="service-link" aria-label="Learn more about Web Development">Learn More <span class="arrow">&rarr;</span></a>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card">
+            <div class="service-icon-container">
+              <!-- UI/UX Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">UI/UX Design</h3>
+            <p class="service-card-desc">Wireframes, responsive prototypes, and interactive customer journeys focused on conversions and brand aesthetics.</p>
+            <a href="#contact" class="service-link" aria-label="Learn more about UI/UX Design">Learn More <span class="arrow">&rarr;</span></a>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card">
+            <div class="service-icon-container">
+              <!-- Mobile Apps Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Mobile Apps</h3>
+            <p class="service-card-desc">Native and cross-platform native iOS & Android applications characterized by fluid, offline-capable codebases.</p>
+            <a href="#contact" class="service-link" aria-label="Learn more about Mobile Apps">Learn More <span class="arrow">&rarr;</span></a>
+          </article>
+
+          <!-- Service Card 4 -->
+          <article class="service-card">
+            <div class="service-icon-container">
+              <!-- SEO Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                <line x1="11" y1="8" x2="11" y2="14"/>
+                <line x1="8" y1="11" x2="14" y2="11"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">SEO Optimization</h3>
+            <p class="service-card-desc">On-page technical structuring, fast Core Web Vitals configuration, and backlink audit plans for high Google indexing.</p>
+            <a href="#contact" class="service-link" aria-label="Learn more about SEO Optimization">Learn More <span class="arrow">&rarr;</span></a>
+          </article>
+
+          <!-- Service Card 5 -->
+          <article class="service-card">
+            <div class="service-icon-container">
+              <!-- Digital Marketing Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Digital Marketing</h3>
+            <p class="service-card-desc">Data-driven performance campaigns, social acquisition, copy generation, and visual growth marketing funnels.</p>
+            <a href="#contact" class="service-link" aria-label="Learn more about Digital Marketing">Learn More <span class="arrow">&rarr;</span></a>
+          </article>
+
+          <!-- Service Card 6 -->
+          <article class="service-card">
+            <div class="service-icon-container">
+              <!-- Cloud Solutions Icon -->
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Cloud Solutions</h3>
+            <p class="service-card-desc">Robust container orchestrations, automated serverless pipelines, microservice deployment, and AWS/GCP integrations.</p>
+            <a href="#contact" class="service-link" aria-label="Learn more about Cloud Solutions">Learn More <span class="arrow">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATISTICS SECTION -->
+    <section class="stats scroll-reveal">
+      <div class="container stats-grid">
+        <!-- Stat Item 1 -->
+        <div class="stat-card">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        
+        <!-- Stat Item 2 -->
+        <div class="stat-card">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Active Clients</div>
+        </div>
+
+        <!-- Stat Item 3 -->
+        <div class="stat-card">
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+
+        <!-- Stat Item 4 -->
+        <div class="stat-card">
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-label">Satisfaction Rate</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio section scroll-reveal">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Our Work</span>
+          <h2 class="section-title">Selected Case Studies</h2>
+          <p class="section-desc">Explore our premium digital solutions designed for high performance, ease of use, and visual distinction.</p>
+        </div>
+        
+        <div class="portfolio-grid">
+          <!-- Project Card 1 -->
+          <article class="portfolio-card">
+            <div class="portfolio-img-container">
+              <svg class="portfolio-placeholder-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="url(#blueGrad)" opacity="0.1"/>
+                <rect x="40" y="40" width="320" height="220" rx="10" fill="#1E293B"/>
+                <rect x="50" y="50" width="300" height="20" rx="4" fill="#0F172A"/>
+                <circle cx="65" cy="60" r="4" fill="#EF4444"/>
+                <circle cx="77" cy="60" r="4" fill="#F59E0B"/>
+                <circle cx="89" cy="60" r="4" fill="#10B981"/>
+                <rect x="60" y="90" width="120" height="60" rx="6" fill="#3B82F6" opacity="0.3"/>
+                <line x1="60" y1="170" x2="340" y2="170" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+                <line x1="60" y1="190" x2="280" y2="190" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+                <line x1="60" y1="210" x2="310" y2="210" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Web Development</span>
+              <h3 class="portfolio-title">AeroCommerce Platform</h3>
+              <p class="portfolio-desc">High-performance retail engine featuring millisecond checkouts and headless architecture.</p>
+              <a href="#contact" class="btn btn-secondary btn-sm" aria-label="View AeroCommerce Platform project details">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="portfolio-card">
+            <div class="portfolio-img-container">
+              <svg class="portfolio-placeholder-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="url(#blueGrad)" opacity="0.1"/>
+                <!-- Smartphone mockup -->
+                <rect x="130" y="30" width="140" height="240" rx="20" fill="#1E293B"/>
+                <rect x="140" y="45" width="120" height="210" rx="12" fill="#0F172A"/>
+                <circle cx="200" cy="242" r="8" fill="#1E293B"/>
+                <!-- Graph inside screen -->
+                <path d="M150,180 L180,140 L210,160 L240,110" fill="none" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+                <rect x="160" y="70" width="80" height="30" rx="4" fill="#3B82F6" opacity="0.2"/>
+              </svg>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Mobile Apps</span>
+              <h3 class="portfolio-title">Zenith Neo-Banking App</h3>
+              <p class="portfolio-desc">Award-winning secure financial ledger with real-time analytics and biometric verification.</p>
+              <a href="#contact" class="btn btn-secondary btn-sm" aria-label="View Zenith Neo-Banking App project details">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="portfolio-card">
+            <div class="portfolio-img-container">
+              <svg class="portfolio-placeholder-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="url(#blueGrad)" opacity="0.1"/>
+                <!-- Dash layout -->
+                <rect x="40" y="40" width="320" height="220" rx="10" fill="#1E293B"/>
+                <!-- Left Sidebar -->
+                <rect x="40" y="40" width="60" height="220" fill="#0F172A" />
+                <rect x="48" y="70" width="44" height="6" rx="3" fill="#64748B" />
+                <rect x="48" y="90" width="44" height="6" rx="3" fill="#64748B" />
+                <rect x="48" y="110" width="44" height="6" rx="3" fill="#3B82F6" />
+                <!-- Charts -->
+                <rect x="120" y="70" width="220" height="100" rx="6" fill="#0F172A"/>
+                <circle cx="230" cy="120" r="30" fill="none" stroke="#64748B" stroke-width="8"/>
+                <circle cx="230" cy="120" r="30" fill="none" stroke="#3B82F6" stroke-width="8" stroke-dasharray="120 180" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">UI/UX Design</span>
+              <h3 class="portfolio-title">Hyperion SaaS Dashboard</h3>
+              <p class="portfolio-desc">Complex control suite redesign optimizing multi-tenant cloud monitoring tools.</p>
+              <a href="#contact" class="btn btn-secondary btn-sm" aria-label="View Hyperion SaaS Dashboard project details">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project Card 4 -->
+          <article class="portfolio-card">
+            <div class="portfolio-img-container">
+              <svg class="portfolio-placeholder-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="url(#blueGrad)" opacity="0.1"/>
+                <!-- Funnel structure -->
+                <polygon points="120,60 280,60 250,120 150,120" fill="#3B82F6" opacity="0.8"/>
+                <polygon points="150,124 250,124 230,180 170,180" fill="#60A5FA" opacity="0.6"/>
+                <rect x="175" y="184" width="50" height="50" rx="2" fill="#93C5FD" opacity="0.4"/>
+                <line x1="200" y1="234" x2="200" y2="260" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">SEO & Marketing</span>
+              <h3 class="portfolio-title">ScaleMetrics Growth Audit</h3>
+              <p class="portfolio-desc">Comprehensive strategy generating 310% growth in organic search traffic.</p>
+              <a href="#contact" class="btn btn-secondary btn-sm" aria-label="View ScaleMetrics Growth Audit project details">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project Card 5 -->
+          <article class="portfolio-card">
+            <div class="portfolio-img-container">
+              <svg class="portfolio-placeholder-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="url(#blueGrad)" opacity="0.1"/>
+                <!-- Cloud nodes -->
+                <rect x="160" y="50" width="80" height="40" rx="8" fill="#1E293B"/>
+                <text x="180" y="75" fill="#3B82F6" font-family="sans-serif" font-weight="bold" font-size="12">API</text>
+                <rect x="70" y="150" width="90" height="40" rx="8" fill="#1E293B"/>
+                <text x="85" y="175" fill="#64748B" font-family="sans-serif" font-size="10">Database</text>
+                <rect x="240" y="150" width="90" height="40" rx="8" fill="#1E293B"/>
+                <text x="255" y="175" fill="#64748B" font-family="sans-serif" font-size="10">Cache Server</text>
+                <!-- Connectors -->
+                <line x1="200" y1="90" x2="115" y2="150" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+                <line x1="200" y1="90" x2="285" y2="150" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+              </svg>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Cloud Solutions</span>
+              <h3 class="portfolio-title">Vigilant Serverless Pipeline</h3>
+              <p class="portfolio-desc">Auto-scaling infrastructure handling 100M+ API requests daily without down times.</p>
+              <a href="#contact" class="btn btn-secondary btn-sm" aria-label="View Vigilant Serverless Pipeline project details">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project Card 6 -->
+          <article class="portfolio-card">
+            <div class="portfolio-img-container">
+              <svg class="portfolio-placeholder-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="url(#blueGrad)" opacity="0.1"/>
+                <!-- Web mockup -->
+                <rect x="40" y="40" width="320" height="220" rx="10" fill="#1E293B"/>
+                <!-- Left panel -->
+                <rect x="55" y="55" width="130" height="190" rx="6" fill="#0F172A"/>
+                <rect x="65" y="70" width="110" height="70" rx="4" fill="#3B82F6" opacity="0.4"/>
+                <rect x="65" y="155" width="90" height="8" rx="4" fill="#64748B" />
+                <rect x="65" y="175" width="110" height="8" rx="4" fill="#64748B" />
+                <!-- Right panel -->
+                <rect x="200" y="55" width="145" height="190" rx="6" fill="#0F172A"/>
+                <rect x="210" y="70" width="125" height="150" rx="4" fill="#1E293B"/>
+                <circle cx="272" cy="145" r="25" fill="#3B82F6" opacity="0.3"/>
+              </svg>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Web Development</span>
+              <h3 class="portfolio-title">Neptune Real Estate Portal</h3>
+              <p class="portfolio-desc">Interactive mapping and database portal showcasing premium property listings.</p>
+              <a href="#contact" class="btn btn-secondary btn-sm" aria-label="View Neptune Real Estate Portal project details">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials section scroll-reveal">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Testimonials</span>
+          <h2 class="section-title">Trusted By Visionary Leaders</h2>
+          <p class="section-desc">Hear directly from the managers, directors, and executives we team up with to achieve success.</p>
+        </div>
+        
+        <div class="testimonials-grid">
+          <!-- Testimonial Card 1 -->
+          <blockquote class="testimonial-card">
+            <div class="testimonial-rating">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+            <p class="testimonial-text">
+              "DecodeLabs completely transformed our product lifecycle. Their clean engineering and design process cut our page render times by 40%, directly boosting conversions. They communicate excellently."
+            </p>
+            <div class="testimonial-client">
+              <div class="client-avatar">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="50" cy="50" r="50" fill="#3B82F6" />
+                  <path d="M50,25 A18,18 0 0,0 32,43 A18,18 0 0,0 32.5,47 A25,25 0 0,0 25,70 A25,25 0 0,0 75,70 A25,25 0 0,0 67.5,47 A18,18 0 0,0 68,43 A18,18 0 0,0 50,25 Z" fill="#FFFFFF" />
+                </svg>
+              </div>
+              <div class="client-meta">
+                <cite class="client-name">Sarah Jenkins</cite>
+                <span class="client-position">VP of Product, AeroCommerce</span>
+              </div>
+            </div>
+          </blockquote>
+
+          <!-- Testimonial Card 2 -->
+          <blockquote class="testimonial-card">
+            <div class="testimonial-rating">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+            <p class="testimonial-text">
+              "The mobile architecture designed by DecodeLabs is nothing short of outstanding. The team delivered a native banking prototype that met our strict compliance metrics, ahead of schedule."
+            </p>
+            <div class="testimonial-client">
+              <div class="client-avatar">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="50" cy="50" r="50" fill="#1E293B" />
+                  <path d="M50,25 A18,18 0 0,0 32,43 A18,18 0 0,0 32.5,47 A25,25 0 0,0 25,70 A25,25 0 0,0 75,70 A25,25 0 0,0 67.5,47 A18,18 0 0,0 68,43 A18,18 0 0,0 50,25 Z" fill="#60A5FA" />
+                </svg>
+              </div>
+              <div class="client-meta">
+                <cite class="client-name">David Thorne</cite>
+                <span class="client-position">Chief Innovation Officer, Zenith Finance</span>
+              </div>
+            </div>
+          </blockquote>
+
+          <!-- Testimonial Card 3 -->
+          <blockquote class="testimonial-card">
+            <div class="testimonial-rating">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+            <p class="testimonial-text">
+              "Their serverless cloud migration script helped us scale without the engineering headaches we expected. Our cloud spend is down 25% while database security and response times have peaked."
+            </p>
+            <div class="testimonial-client">
+              <div class="client-avatar">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="50" cy="50" r="50" fill="#3B82F6" opacity="0.3"/>
+                  <circle cx="50" cy="50" r="46" fill="#3B82F6" />
+                  <path d="M50,25 A18,18 0 0,0 32,43 A18,18 0 0,0 32.5,47 A25,25 0 0,0 25,70 A25,25 0 0,0 75,70 A25,25 0 0,0 67.5,47 A18,18 0 0,0 68,43 A18,18 0 0,0 50,25 Z" fill="#1E293B" />
+                </svg>
+              </div>
+              <div class="client-meta">
+                <cite class="client-name">Marcus Vance</cite>
+                <span class="client-position">Co-Founder, Vigilant App</span>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact section scroll-reveal">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Let's Build Something Premium</h2>
+          <p class="section-desc">Have a project in mind or want to consult with our technology specialists? Fill in the form below.</p>
+        </div>
+        
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info">
+            <div class="info-block">
+              <h3>DecodeLabs Headquarters</h3>
+              <p>Work with us directly or schedule a virtual planning call.</p>
+            </div>
+            
+            <ul class="info-details-list">
+              <li>
+                <div class="info-icon-wrapper">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="info-label">Email Us</span>
+                  <a href="mailto:hello@decodelabs.com" class="info-val">hello@decodelabs.com</a>
+                </div>
+              </li>
+              
+              <li>
+                <div class="info-icon-wrapper">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="info-label">Call Our Office</span>
+                  <a href="tel:+15550198" class="info-val">+1 (555) 0198</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="info-icon-wrapper">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="info-label">Find Us</span>
+                  <address class="info-val">100 Tech Plaza, Suite 400, San Francisco, CA</address>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Contact Form Column -->
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                  <span class="error-msg" id="nameError" role="alert">Please enter your name.</span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                  <span class="error-msg" id="emailError" role="alert">Please enter a valid email address.</span>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                  <span class="error-msg" id="phoneError" role="alert">Please enter a valid 10+ digit phone number.</span>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject *</label>
+                  <input type="text" id="subject" name="subject" placeholder="Project Discussion" required>
+                  <span class="error-msg" id="subjectError" role="alert">Please enter a subject.</span>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your digital project goals..." required></textarea>
+                <span class="error-msg" id="messageError" role="alert">Message must be at least 15 characters long.</span>
+              </div>
+              
+              <!-- Success State -->
+              <div class="form-success-alert" id="formSuccessAlert" role="alert">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="alert-icon">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <div>
+                  <h4>Message Sent Successfully!</h4>
+                  <p>Thank you for reaching out. A Digital Specialist will email you back within 24 hours.</p>
+                </div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-grid">
+      <!-- Footer Brand Column -->
+      <div class="footer-brand">
+        <a href="#home" class="logo">Decode<span>Labs</span></a>
+        <p class="footer-desc">
+          Building bespoke, industry-leading web applications, mobile platforms, and high-performance digital environments.
+        </p>
+        <div class="social-links">
+          <a href="#" aria-label="DecodeLabs on Twitter" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="DecodeLabs on LinkedIn" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="DecodeLabs on GitHub" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="DecodeLabs on Dribbble" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.43c-.22-.44-2.28-4.39-7.23-5.57.2-.47.41-.95.62-1.43.51.12 1 .27 1.48.42 4.14 1.29 5.09 4.3 5.13 4.45-.02.43-.07.86-.14 1.27-2.61.94-5.26 2.03-6.9 2.87.5.86.91 1.76 1.22 2.65 4.33-.29 5.76-2.12 5.82-2.19zm-7.6 7.42c-.28-.8-.67-1.63-1.12-2.45-3.08 1.06-5.83.6-6.17.53.23.63.57 1.23.99 1.76 1.75 1.2 4.16 1.34 6.3.16zm-7.85-2.07c.36.07 2.64.44 5.34-.5-1.23-2.19-2.58-4.47-3.8-6.12-2.73.74-4.88 3.32-5.11 3.63a9.98 9.98 0 0 0 3.57 2.99zm-3.32-6.1c.14-.23 2.14-3.14 4.96-3.87.05-.12.1-.24.15-.36a39 39 0 0 1-1.34-.84C2.12 9.68 1.94 11.85 1.95 12.03c.01.27.05.54.1.81zm5.17-5.5c.37.23.77.49 1.17.75 1.14-1.6 2.15-3.33 2.76-4.6A9.97 9.97 0 0 0 5 4.67c.07.09 2.05 2.5 3.82 4.16zm7.25-1.5c-.56 1.16-1.51 2.75-2.58 4.22 4.54 1.15 6.38 4.7 6.47 4.88A9.96 9.96 0 0 0 12 2c1.7 0 3.29.42 4.7 1.16z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Footer Columns -->
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">UI/UX Design</a></li>
+          <li><a href="#services">Mobile Applications</a></li>
+          <li><a href="#services">SEO Optimization</a></li>
+          <li><a href="#services">Digital Marketing</a></li>
+          <li><a href="#services">Cloud Integrations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Agency</a></li>
+          <li><a href="#services">Core Capabilities</a></li>
+          <li><a href="#portfolio">Selected Work</a></li>
+          <li><a href="#contact">Contact Support</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Legal & Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@decodelabs.com">hello@decodelabs.com</a></li>
+          <li><a href="tel:+15550198">+1 (555) 0198</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Copyright Bar -->
+    <div class="container copyright-bar">
+      <p>&copy; 2026 DecodeLabs. All rights reserved. Built with semantic HTML5, CSS3 Grid/Flexbox, and Vanilla Javascript.</p>
+    </div>
+  </footer>
+
+  <!-- JS Script -->
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
